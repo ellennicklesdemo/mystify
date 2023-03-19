@@ -7,7 +7,7 @@ function setup() {
   stroke(255);
   strokeWeight(2);
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 10; i++) {
     let mystify = new Mystify();
     mystifies.push(mystify);
   }
