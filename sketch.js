@@ -7,9 +7,6 @@ function setup() {
   stroke(255);
   strokeWeight(2);
 
-  // mystify1 = new Mystify();
-  // mystify2 = new Mystify();
-
   for (let i = 0; i < 5; i++) {
     let mystify = new Mystify();
     mystifies.push(mystify);
