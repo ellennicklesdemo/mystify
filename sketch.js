@@ -10,7 +10,7 @@ function setup() {
   // mystify1 = new Mystify();
   // mystify2 = new Mystify();
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 5; i++) {
     let mystify = new Mystify();
     mystifies.push(mystify);
   }
