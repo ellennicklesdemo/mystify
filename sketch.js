@@ -9,7 +9,7 @@ let mystifies = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  stroke(255);
+  stroke(255, 0, 255);
   strokeWeight(2);
 
   for (let i = 0; i < 10; i++) {
