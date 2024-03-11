@@ -12,9 +12,6 @@ function setup() {
   stroke(255);
   strokeWeight(2);
 
-  // mystify1 = new Mystify();
-  // mystify2 = new Mystify();
-
   for (let i = 0; i < 10; i++) {
     let mystify = new Mystify();
     mystifies.push(mystify);
@@ -27,7 +24,6 @@ function draw() {
   for (let i = 0; i < mystifies.length; i++) {
     mystifies[i].show();
     mystifies[i].move();
-    // mystifies[i].bounce();
   }
 }
 
